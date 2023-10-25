@@ -1,0 +1,89 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) CCconfig         4) imkl/2020.1.217    7) libfabric/1.10.1
+  2) gentoo/2020      5) intel/2020.1.217   8) openmpi/4.0.3
+  3) gcccore/.9.3.0   6) ucx/1.8.0          9) StdEnv/2020
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) libfabric/1.10.1     2) openmpi/4.0.3     3) ucx/1.8.0
+
+starting solvent relaxation
+starting 1min
+
+  Unit    5 Error on OPEN: Relaxation/1min.in                                                                                                                                                                                                                                              
+
+  Unit    5 Error on OPEN: Relaxation/1min.in                                                                                                                                                                                                                                              
+STOP PMEMD Terminated Abnormally!
+ending 1min
+starting 2mdheat
+
+  Unit    5 Error on OPEN: Relaxation/2mdheat.in                                                                                                                                                                                                                                           
+
+  Unit    5 Error on OPEN: Relaxation/2mdheat.in                                                                                                                                                                                                                                           
+STOP PMEMD Terminated Abnormally!
+ending 2mdheat
+starting 3md
+
+  Unit    5 Error on OPEN: Relaxation/3md.in                                                                                                                                                                                                                                               
+
+  Unit    5 Error on OPEN: Relaxation/3md.in                                                                                                                                                                                                                                               
+STOP PMEMD Terminated Abnormally!
+ending 3md
+starting 4md'
+
+  Unit    5 Error on OPEN: Relaxation/4md.in                                                                                                                                                                                                                                               
+
+  Unit    5 Error on OPEN: Relaxation/4md.in                                                                                                                                                                                                                                               
+STOP PMEMD Terminated Abnormally!
+ending 4md
+ending solvent relaxation
+starting sidechain relaxation
+starting 5min
+
+  Unit    5 Error on OPEN: Relaxation/5min.in                                                                                                                                                                                                                                              
+
+  Unit    5 Error on OPEN: Relaxation/5min.in                                                                                                                                                                                                                                              
+STOP PMEMD Terminated Abnormally!
+ending 5min
+starting 6md
+
+  Unit    5 Error on OPEN: Relaxation/6md.in                                                                                                                                                                                                                                               
+
+  Unit    5 Error on OPEN: Relaxation/6md.in                                                                                                                                                                                                                                               
+STOP PMEMD Terminated Abnormally!
+ending 6md
+starting 7md
+
+  Unit    5 Error on OPEN: Relaxation/7md.in                                                                                                                                                                                                                                               
+
+  Unit    5 Error on OPEN: Relaxation/7md.in                                                                                                                                                                                                                                               
+STOP PMEMD Terminated Abnormally!
+ending 7md
+ending sidechain relaxation
+starting unrestrained relaxation
+starting 9md
+
+  Unit    5 Error on OPEN: Relaxation/9md.in                                                                                                                                                                                                                                               
+
+  Unit    5 Error on OPEN: Relaxation/9md.in                                                                                                                                                                                                                                               
+STOP PMEMD Terminated Abnormally!
+ending 9md
+Finished system relaxation
+Error: Could not open input file 'Relaxation/to_pdb.in'
+Error: Error(s) occurred during execution.
+
+CPPTRAJ: Trajectory Analysis. V4.25.6 OpenMP
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| 1 OpenMP threads available.
+| Date/time: 10/25/23 14:51:52
+| Available memory: 92.578 GB
+
+TIME: Total execution time: 0.0005 seconds.
+

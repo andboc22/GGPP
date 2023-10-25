@@ -1,0 +1,51 @@
+The following modules were not unloaded:
+  (Use "module --force purge" to unload all):
+
+  1) CCconfig         4) imkl/2020.1.217    7) libfabric/1.10.1
+  2) gentoo/2020      5) intel/2020.1.217   8) openmpi/4.0.3
+  3) gcccore/.9.3.0   6) ucx/1.8.0          9) StdEnv/2020
+
+Lmod is automatically replacing "intel/2020.1.217" with "gcc/9.3.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) libfabric/1.10.1     2) openmpi/4.0.3     3) ucx/1.8.0
+
+The environment has already been set by the module.
+Not making any changes.
+
+  Error opening unit    6: File "QM_MM/qmmm.out" exists (use -O to overwrite)            
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 1.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+In: PMI_Abort(1, N/A)
+cdr26.int.cedar.computecanada.ca.23710psmi_cuda_initialize: Unable to find active CUDA context
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 16367820.0 ON cdr26 CANCELLED AT 2023-10-25T15:06:58 ***
+srun: error: cdr26: task 0: Killed
+srun: Terminating StepId=16367820.0
+srun: error: cdr211: task 7: Killed
+srun: error: cdr111: task 4: Killed
+srun: error: cdr160: task 6: Killed
+srun: error: cdr157: task 5: Killed
+srun: error: cdr29: task 1: Killed
+srun: error: cdr40: tasks 2-3: Killed
+Error: Could not open input file 'QM_MM/to_pdb.in'
+Error: Error(s) occurred during execution.
+
+CPPTRAJ: Trajectory Analysis. V5.1.0 OpenMP
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| 1 OpenMP threads available.
+| Date/time: 10/25/23 15:06:59
+| Available memory: 99.293 GB
+
+TIME: Total execution time: 0.0004 seconds.
+
